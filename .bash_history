@@ -130,3 +130,49 @@ docker rm -f c1 c2 c3
 cd  "/var/lib/docker/volumes/6559113ccbc9b19deb1a2d0fe2c036e33d7a1c0a3c9fa30c7f1cc1e0aea44afa/_data"
 ls
 exit
+docker volume ls
+git init
+git push
+git remote add origin https://github.com/chaitu917/docker1.git
+git push -u origin master
+git push -u origin main
+git branch
+git status
+git add .
+git commit -m "docker1"
+git status
+git push
+git remote add origin https://github.com/chaitu917/docker1.git
+git push -u origin master
+git status
+exit
+docker images
+docker compose up -d
+docker compose down
+docker system prune -af
+clear
+docker images
+docker container ls
+ls
+vim docker-compose.yml
+vim docker-compose1.yml
+docker compose -f  docker-compose1.yml up -d
+vim docker-compose1.yml
+docker compose -f  docker-compose1.yml up -d
+docker container ls
+docker compose down
+docker container ls
+docker compose -f   docker-compose1.yml down
+docker container ls
+ls
+vim docker-compose2.yml
+docker compose -f  docker-compose2.yml up -d
+docker system prune -af
+ls
+docker compose -f  docker-compose2.yml up -d
+docker container ls
+docker compose -f  docker-compose2.yml down
+docker container ls
+docker compose -f  docker-compose2.yml up -d
+docker container ls
+docker compose -f  docker-compose2.yml down
