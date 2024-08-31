@@ -176,3 +176,95 @@ docker container ls
 docker compose -f  docker-compose2.yml up -d
 docker container ls
 docker compose -f  docker-compose2.yml down
+clear
+docker container  ls
+docker images
+docker system prune -af
+clear
+docker images
+docker container ls
+docker volume ls
+docker rm -f $(docker ps -aq)
+docker rmi -f $(docker ps -aq)
+docker rm -f c1 c2 c3
+docker volume rm 
+docker volume rm  4fa88412c7fda6417f4a9c1628d77459c9bfd9060ca7aac67fc8a28ad76d81a3
+docker volume ls
+docker volume -f
+docker volume rm -f
+ocker volume -f rm
+cler
+clear
+docker volume create myvolume
+docker volume ls
+docker volume inspect myvolume
+cd  "/var/lib/docker/volumes/myvolume/_data"
+ls
+touch file1
+ls
+cd
+docker run --name u1 -it -v myvolume:/tmp ubuntu
+docker rm -f u1
+docker volume ls
+docker volume inspect
+docker volume inspect myvolume
+cd "/var/lib/docker/volumes/myvolume/_data"
+ls
+docker run --name u2 -it -v myvolume:/tmp ubuntu
+docker rm -f u2
+ls
+docker volume create nginx
+docker volume ls
+docker volume inspect
+docker volume inspect nginx
+cd  "/var/lib/docker/volumes/nginx/_data"
+ls
+vim index.html
+docker run --name n1 -d -P -v nginxvolume:/usr/share/nginx/html nginx
+docker container ls
+cd
+docker volume create httpdvolume
+docker volume inspect httpdvolume
+cd  "/var/lib/docker/volumes/httpdvolume/_data"
+ls
+vim index.html 
+cd
+docker run --name h2 -d -P-v httpdvolume:/var/www/html httpd
+docker run --name h2 -d -P -v httpdvolume:/var/www/html httpd
+docker contianer ls
+docker container ls
+docker exec it h2 bash
+docker exec -it h2 bash
+docker rm -f $(docker ps -aq)
+docker volume ls
+docker volume inspect nginx
+docker system prune -af
+clear
+docker run --name u1 -it ubuntu
+docker rm -f u1
+docker run --name u1 -it ubuntu
+docker commit u1 myubuntu
+docker images
+docker rm -f u1
+docker run --name u1 -it myubuntu
+docker ps -a
+git init
+git status
+git add .
+git commit -m dockervolume"
+
+"
+git commit -m "dockervolume"
+https://github.com/chaitu917/docker1.git
+git origin master https://github.com/chaitu917/docker1.git
+git remote add origin https://github.com/chaitu917/docker1.git
+git remote -v
+git push 
+git stauts
+git status
+docker image
+docker images
+docker containers
+docker containers ls
+docker conainer ls
+docker container ls

@@ -12,7 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1725002322,,"wq"
+|2,0,1725084259,,"wq"
+:q!
+|2,0,1725081941,,"q!"
+:Q!
+|2,0,1725081888,,"Q!"
 :%d
 |2,0,1724912939,,"%d"
 :dG
@@ -49,230 +53,249 @@
 |3,1,1,1,16,0,1724912939,"---","version: '3.8'","services:","  mydb:","    image: mysql","    environment:","      MYSQL_ROOT_PASSWORD: chaitu","","  mywordpress:","    image: wordpress","    ports:","      - 8888:80","    links:","      - mydb:mysql","..",""
 
 # File marks:
-'0  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
-|4,48,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
-'1  12  6  /var/lib/docker/volumes/nginx/_data/index.html
-|4,49,12,6,1725001618,"/var/lib/docker/volumes/nginx/_data/index.html"
-'2  21  2  ~/docker-compose2.yml
-|4,50,21,2,1724917280,"~/docker-compose2.yml"
-'3  19  12  ~/docker-compose1.yml
-|4,51,19,12,1724916746,"~/docker-compose1.yml"
-'4  15  5  ~/docker-compose1.yml
-|4,52,15,5,1724916714,"~/docker-compose1.yml"
-'5  15  5  ~/docker-compose1.yml
-|4,53,15,5,1724916714,"~/docker-compose1.yml"
-'6  20  2  ~/docker-compose1.yml
-|4,54,20,2,1724916576,"~/docker-compose1.yml"
-'7  20  2  ~/docker-compose1.yml
-|4,55,20,2,1724916576,"~/docker-compose1.yml"
-'8  20  2  ~/docker-compose1.yml
-|4,56,20,2,1724916576,"~/docker-compose1.yml"
-'9  20  2  ~/docker-compose1.yml
-|4,57,20,2,1724916576,"~/docker-compose1.yml"
+'0  9  27  ~/dockerfile
+|4,48,9,27,1725084259,"~/dockerfile"
+'1  1  10  ~/dockerfile
+|4,49,1,10,1725083449,"~/dockerfile"
+'2  1  10  ~/dockerfile
+|4,50,1,10,1725083449,"~/dockerfile"
+'3  1  10  ~/dockerfile
+|4,51,1,10,1725082626,"~/dockerfile"
+'4  1  10  ~/dockerfile
+|4,52,1,10,1725082626,"~/dockerfile"
+'5  7  26  ~/dockerfile
+|4,53,7,26,1725082564,"~/dockerfile"
+'6  7  26  ~/dockerfile
+|4,54,7,26,1725082564,"~/dockerfile"
+'7  7  26  ~/dockerfile
+|4,55,7,26,1725082564,"~/dockerfile"
+'8  7  26  ~/dockerfile
+|4,56,7,26,1725082564,"~/dockerfile"
+'9  7  26  ~/dockerfile
+|4,57,7,26,1725082564,"~/dockerfile"
 
 # Jumplist (newest first):
+-'  9  27  ~/dockerfile
+|4,39,9,27,1725084259,"~/dockerfile"
+-'  1  10  ~/dockerfile
+|4,39,1,10,1725084187,"~/dockerfile"
+-'  1  10  ~/dockerfile
+|4,39,1,10,1725083449,"~/dockerfile"
+-'  1  10  ~/dockerfile
+|4,39,1,10,1725082626,"~/dockerfile"
+-'  7  26  ~/dockerfile
+|4,39,7,26,1725082612,"~/dockerfile"
+-'  7  26  ~/dockerfile
+|4,39,7,26,1725082612,"~/dockerfile"
+-'  7  26  ~/dockerfile
+|4,39,7,26,1725082612,"~/dockerfile"
+-'  7  26  ~/dockerfile
+|4,39,7,26,1725082564,"~/dockerfile"
+-'  1  0  ~/dockerfile
+|4,39,1,0,1725082412,"~/dockerfile"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081960,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  1  0  ~/dockerfile1
+|4,39,1,0,1725081941,"~/dockerfile1"
+-'  11  0  ~/dockerfile
+|4,39,11,0,1725081513,"~/dockerfile"
+-'  3  0  ~/dockerfile
+|4,39,3,0,1725081513,"~/dockerfile"
+-'  9  0  ~/dockerfile
+|4,39,9,0,1725081513,"~/dockerfile"
+-'  3  0  ~/dockerfile
+|4,39,3,0,1725081513,"~/dockerfile"
+-'  9  0  ~/dockerfile
+|4,39,9,0,1725081513,"~/dockerfile"
+-'  3  0  ~/dockerfile
+|4,39,3,0,1725081513,"~/dockerfile"
+-'  9  0  ~/dockerfile
+|4,39,9,0,1725081513,"~/dockerfile"
+-'  3  0  ~/dockerfile
+|4,39,3,0,1725081513,"~/dockerfile"
+-'  3  0  ~/dockerfile
+|4,39,3,0,1725081513,"~/dockerfile"
+-'  3  0  ~/dockerfile
+|4,39,3,0,1725081513,"~/dockerfile"
+-'  3  0  ~/dockerfile
+|4,39,3,0,1725081513,"~/dockerfile"
+-'  3  0  ~/dockerfile
+|4,39,3,0,1725081398,"~/dockerfile"
+-'  3  0  ~/dockerfile
+|4,39,3,0,1725081398,"~/dockerfile"
+-'  3  0  ~/dockerfile
+|4,39,3,0,1725081398,"~/dockerfile"
+-'  3  0  ~/dockerfile
+|4,39,3,0,1725081398,"~/dockerfile"
+-'  1  0  ~/dockerfile
+|4,39,1,0,1725081326,"~/dockerfile"
+-'  1  0  ~/dockerfile
+|4,39,1,0,1725081326,"~/dockerfile"
+-'  1  0  ~/dockerfile
+|4,39,1,0,1725081326,"~/dockerfile"
+-'  1  0  ~/dockerfile
+|4,39,1,0,1725081326,"~/dockerfile"
+-'  1  0  ~/dockerfile
+|4,39,1,0,1725081326,"~/dockerfile"
+-'  1  0  ~/dockerfile
+|4,39,1,0,1725081326,"~/dockerfile"
+-'  1  0  ~/dockerfile
+|4,39,1,0,1725081326,"~/dockerfile"
+-'  1  0  ~/dockerfile
+|4,39,1,0,1725081326,"~/dockerfile"
 -'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
 |4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
--'  1  0  /var/lib/docker/volumes/httpdvolume/_data/index.html
-|4,39,1,0,1725002159,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
--'  12  6  /var/lib/docker/volumes/nginx/_data/index.html
-|4,39,12,6,1725001618,"/var/lib/docker/volumes/nginx/_data/index.html"
--'  12  6  /var/lib/docker/volumes/nginx/_data/index.html
-|4,39,12,6,1725001618,"/var/lib/docker/volumes/nginx/_data/index.html"
--'  1  0  /var/lib/docker/volumes/nginx/_data/index.html
-|4,39,1,0,1725001608,"/var/lib/docker/volumes/nginx/_data/index.html"
--'  1  0  /var/lib/docker/volumes/nginx/_data/index.html
-|4,39,1,0,1725001608,"/var/lib/docker/volumes/nginx/_data/index.html"
--'  21  2  ~/docker-compose2.yml
-|4,39,21,2,1724917280,"~/docker-compose2.yml"
--'  21  2  ~/docker-compose2.yml
-|4,39,21,2,1724917280,"~/docker-compose2.yml"
--'  21  2  ~/docker-compose2.yml
-|4,39,21,2,1724917280,"~/docker-compose2.yml"
--'  21  2  ~/docker-compose2.yml
-|4,39,21,2,1724917280,"~/docker-compose2.yml"
--'  1  0  ~/docker-compose2.yml
-|4,39,1,0,1724917033,"~/docker-compose2.yml"
--'  1  0  ~/docker-compose2.yml
-|4,39,1,0,1724917033,"~/docker-compose2.yml"
--'  1  0  ~/docker-compose2.yml
-|4,39,1,0,1724917033,"~/docker-compose2.yml"
--'  1  0  ~/docker-compose2.yml
-|4,39,1,0,1724917033,"~/docker-compose2.yml"
--'  19  12  ~/docker-compose1.yml
-|4,39,19,12,1724916746,"~/docker-compose1.yml"
--'  19  12  ~/docker-compose1.yml
-|4,39,19,12,1724916746,"~/docker-compose1.yml"
--'  19  12  ~/docker-compose1.yml
-|4,39,19,12,1724916746,"~/docker-compose1.yml"
--'  19  12  ~/docker-compose1.yml
-|4,39,19,12,1724916746,"~/docker-compose1.yml"
--'  19  12  ~/docker-compose1.yml
-|4,39,19,12,1724916746,"~/docker-compose1.yml"
--'  19  12  ~/docker-compose1.yml
-|4,39,19,12,1724916746,"~/docker-compose1.yml"
--'  19  12  ~/docker-compose1.yml
-|4,39,19,12,1724916746,"~/docker-compose1.yml"
--'  19  12  ~/docker-compose1.yml
-|4,39,19,12,1724916746,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916717,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916717,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916717,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916717,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916717,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916717,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916717,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916717,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916714,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916714,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916714,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916714,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916714,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916714,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916714,"~/docker-compose1.yml"
--'  15  5  ~/docker-compose1.yml
-|4,39,15,5,1724916714,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916630,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916576,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916576,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916576,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916576,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916576,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916576,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916576,"~/docker-compose1.yml"
--'  20  2  ~/docker-compose1.yml
-|4,39,20,2,1724916576,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  1  0  ~/docker-compose1.yml
-|4,39,1,0,1724916257,"~/docker-compose1.yml"
--'  22  1  ~/docker-compose.yml
-|4,39,22,1,1724916235,"~/docker-compose.yml"
--'  22  1  ~/docker-compose.yml
-|4,39,22,1,1724916235,"~/docker-compose.yml"
--'  22  1  ~/docker-compose.yml
-|4,39,22,1,1724916235,"~/docker-compose.yml"
--'  22  1  ~/docker-compose.yml
-|4,39,22,1,1724916235,"~/docker-compose.yml"
--'  22  1  ~/docker-compose.yml
-|4,39,22,1,1724916235,"~/docker-compose.yml"
--'  22  1  ~/docker-compose.yml
-|4,39,22,1,1724916235,"~/docker-compose.yml"
--'  22  1  ~/docker-compose.yml
-|4,39,22,1,1724916235,"~/docker-compose.yml"
--'  22  1  ~/docker-compose.yml
-|4,39,22,1,1724916235,"~/docker-compose.yml"
--'  22  1  ~/docker-compose.yml
-|4,39,22,1,1724916235,"~/docker-compose.yml"
--'  22  1  ~/docker-compose.yml
-|4,39,22,1,1724916235,"~/docker-compose.yml"
--'  22  1  ~/docker-compose.yml
-|4,39,22,1,1724916235,"~/docker-compose.yml"
--'  22  1  ~/docker-compose.yml
-|4,39,22,1,1724916235,"~/docker-compose.yml"
--'  22  1  ~/docker-compose.yml
-|4,39,22,1,1724916235,"~/docker-compose.yml"
--'  22  1  ~/docker-compose.yml
-|4,39,22,1,1724916235,"~/docker-compose.yml"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
+-'  5  19  /var/lib/docker/volumes/httpdvolume/_data/index.html
+|4,39,5,19,1725002322,"/var/lib/docker/volumes/httpdvolume/_data/index.html"
 
 # History of marks within files (newest to oldest):
+
+> ~/dockerfile
+	*	1725084257	0
+	"	9	27
+	^	9	28
+	.	9	27
+	+	10	17
+	+	6	4
+	+	5	4
+	+	7	26
+	+	1	10
+	+	9	27
+
+> ~/dockerfile1
+	*	1725081956	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
 
 > /var/lib/docker/volumes/httpdvolume/_data/index.html
 	*	1725002321	0
