@@ -1,0 +1,5 @@
+FROM ubuntu
+
+MAINTAINER chaitu
+ADD https://get.jenkins.io/war-stable/2.462.1/jenkins.war /tmp
+

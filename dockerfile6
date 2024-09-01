@@ -1,0 +1,6 @@
+FROM  nginx
+
+MAINTAINER chaitu
+
+EXPOSE 90
+

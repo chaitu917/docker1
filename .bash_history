@@ -268,3 +268,212 @@ docker containers
 docker containers ls
 docker conainer ls
 docker container ls
+;s
+ls
+git inti
+git init
+git status
+git commit -m "dockerfile"
+git add .
+git commit -m "dockerfile"
+git status
+git push
+git status
+exit
+clear
+docker images
+docker volumes
+docker volume ls
+clear
+docker container ls
+clear
+vim dockerfile
+ls
+docker build -t mynginx .
+docker images
+vim dockerfile
+docker system prune -af
+clear
+vim dockerfile1
+mv dockerfile1 dockerfile
+vim dockerfile
+ls
+docker iamges
+docker images
+vim dockerfile
+docker build -t mybuntu .
+docker build --no-cache -t mybuntu .
+docker build -t mybuntu .
+ls
+vim dockerfile
+docker build -t myubuntu .
+vim dockerfile
+docker build -t myubuntu .
+docker images
+docker run --name u1 -it myubuntu
+docker images
+docker pull ubuntu
+docker images
+ls -l
+docker rm -f u1
+docker system prune -af
+ls
+docker build -t myubuntu .
+docker images
+vim dockerfile
+clear
+docker images
+docker container ls
+ls
+clear
+docker images
+ls
+docker system prune -af
+clear
+vim dockerfile1
+docker build -f -t myubuntu .
+docker build -f dockerfile1 -t myubuntu .
+docker images
+docker run --name u1 -it myubuntu 
+docker images
+docker run --name u1 -it myubuntu 
+docker run --name u1 -it myubuntu .
+docker run --name u1 -it myubuntu
+docker run --name u2 -it myubuntu
+ls
+vim dockerfile1
+docker build -f dockerfile1 -t myubuntu
+docker build -f dockerfile1 -t myubuntu .
+vim dockerfile1
+docker build -f dockerfile1 -t myubuntu .
+vim dockerfile1
+docker build -f dockerfile1 -t myubuntu .
+vim dockerfile1
+docker build -f dockerfile1 -t myubuntu .
+vim dockerfile1
+docker build -f dockerfile1 -t myubuntu .
+docker images
+docker run --name u2 -it myubuntu
+docker run --name u3 -it myubuntu
+vim dockerfile2
+docker build -f dockerfile2 -t myubuntu
+docker build -f dockerfile2 -t myubuntu .
+docker images
+docker rm -f u1 u2 u3
+docker run --name u1 -it myubuntu
+docker rm -f $(docker ps -aq)
+docker system prune -af
+clear
+vim dockerfile3
+docker build -f dockerfile3 -t myubuntu .
+docker images
+dcoker run --name u -it myubuntu
+docker run --name u -it myubuntu
+docker run --name u2 -it myubuntu
+docker container ls
+docker rm -f u1 u2
+docker system prune -af
+docker volume ls
+docker volume prune
+docker volume ls
+docker volume rm  httpdvolume
+docker volume rm  myvolume
+docker volume rm  nginx
+docker volume rm  nginxvolume
+docker volume ls
+docker run --name n1 -P nginx
+docker volume ls
+docker run --name t1 -d -P tomee
+docker volume ls
+docker run --name mydb -d -e MYSQL_ROOT_PASSWORD=chaitu mysql
+docker volume ls
+docker images
+docker container ls
+docker rm -f $(docker ps -aq)
+docker system prune -af
+clear
+vim dockerfile3
+vim dockerfile4
+docker build -f dockerfile4 -t mycentos .
+docker images
+docker run --name c1 -it mycentos
+docker inspect c1
+docker rm -f c1
+cd data
+cd  "/var/lib/docker/volumes/14f92bd21046b9893a7c19361994361e0eeb532e54cdca7b3b990dd0b11d35e8/_data"
+ls
+exit
+clear
+docker system prune -af
+docker rm -f $(docker ps -aq)
+docker rmi -f $(docker ps -aq)
+docker rm -f c1
+docker rm -f c2
+clear
+docker run --name myjenkins -d -P jenkins/jenkins
+docker container ls
+docker exec -it myjenkins bash
+docker rm -f myjenkins
+vim dockerfile5
+docker build -f dockerfile5 -t myjenkins
+docker build -f dockerfile5 -t myjenkins .
+docker images
+docker run --name j1 -d -P myjenkins
+docker container ls
+docker exec -it j1 bash
+exit
+docker container ls
+vim /root/.jenkins/secrets/initialAdminPassword
+vi /root/.jenkins/secrets/initialAdminPassword
+cat /root/.jenkins/secrets/initialAdminPassword
+vim /jenkins/secrets/initialAdminPassword
+exit
+clear
+ls
+vim dockerfile5
+vim dockerfile4
+docker ps -a
+docker rm -f j1
+docker ps -a
+docker system prune -af
+clear
+docker run --name n1 -d -P nginx
+docker container ls
+vim dockerfile6
+docker build -f dockerfile6 -t mynginx .
+docker images
+docker run --name n2 -d P mynginx
+docker run --name n2 -d -P mynginx
+docker contaner ls
+docker container ls
+docker rm -f n1 n2
+docker system prune -af
+clear
+docker images
+docker container ls
+docker run --name u1 -it ubuntu
+docker run --name c1 -it centos
+docker run --name t1 -d -P tomee
+docker run --name h1 -d -P httpd
+docker run --name n1 -d -P nginx
+docker container ls
+docker run --name u1 -it ubuntu
+docker attach c1
+docker rm -f $(docker ps -aq)
+docker system prune -af
+clear
+vim dockerfile7
+docker build -f dockerfile7 -t myubuntu .
+vim dockerfile7
+docker build -f dockerfile7 -t myubuntu .
+docker images
+docker run --name u1 -it myubuntu
+dokcer container ls
+docker container ls
+dokcer rm -f u1
+docker rm -f u1
+vim dockerfile7
+docker build -f dockerfile7 -t myubuntu .
+docker run --name u1 -it myubuntu
+docker run --name u2 -it -d -P myubuntu
+docker container ls
